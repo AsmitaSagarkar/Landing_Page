@@ -10,10 +10,10 @@ export default function Logo() {
 return(
     <>
         <div className="flex justify-center mt-16">
-        <div class="text-center text-gray-400 text-sm font-medium font-['Satoshi']">Trusted By 250+ Companies</div>
+        <div className="text-center text-gray-400 text-sm font-medium font-['Satoshi']">Trusted By 250+ Companies</div>
         </div>
 
-        <div className="lg:flex justify-center lg:gap-20 mt-5 mb-11 grid grid-cols-4 gap-6">
+        <div className="lg:flex justify-center lg:gap-20 mt-5 mb-11 grid grid-cols-4 gap-6 ml-5 mr-5 lg:ml-0 lg:mr-0">
          <div className="flex justify-center"><img className="w-[72.22px] h-[36.11px]" src={Zapier} alt="Loading" /></div>
          <div className="flex justify-center"><img className="w-[72.22px] h-[36.11px]" src={Spotify} alt="Loading" /></div>
          <div className="flex justify-center"><img className="w-[72.22px] h-[36.11px]" src={Zoom} alt="Loading" /></div>

@@ -4,6 +4,7 @@ import Working from "./component/working";
 import Section from "./component/section";
 import Pricing from "./component/pricing";
 import Bottom from "./component/bottom";
+import FAQ from "./component/frequentlyasked";
 
 export default function App(){
   return (
@@ -14,7 +15,9 @@ export default function App(){
     <Working />
     <Section />
     <Pricing />
+    <FAQ />
     <Bottom />
+    
     
     
     </div>
