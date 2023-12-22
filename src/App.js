@@ -7,7 +7,7 @@ import Bottom from "./component/bottom";
 
 export default function App(){
   return (
-    <div>
+    <div className="relative">
     
     <Header />
     <Middle />

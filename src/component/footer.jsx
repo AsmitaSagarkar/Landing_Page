@@ -11,7 +11,7 @@ export default function Footer(){
 
         <>
         <div class="w-[1440px] h-[181px] px-[89px] flex-col justify-start items-center gap-8 inline-flex">
-    <div class="w-[1260px] h-px bg-gray-300"></div>
+    <div class="w-screen h-px bg-gray-300"></div>
     <div class="self-stretch h-[92px] flex-col justify-center items-start gap-3 flex">
         <div class="self-stretch text-gray-700 text-2xl font-bold font-['Satoshi']">UniCraft</div>
         <div class="self-stretch text-gray-400 text-lg font-medium font-['Satoshi']">Design amazing digital experiences that<br/>create more happy in the world.</div>

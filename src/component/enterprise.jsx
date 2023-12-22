@@ -3,7 +3,7 @@ export default function Enterprise(){
     return (
 
         <>
-        <div class="w-[378.67px] h-[629px] px-6 py-10 bg-white rounded-2xl border border-gray-200 flex-col justify-start items-start gap-10 inline-flex">
+        <div class="lg:w-[378.67px] lg:h-[629px] w-[350px] h-[600px] px-6 py-10 bg-white rounded-2xl border border-gray-200 flex-col justify-start items-start gap-10 inline-flex">
     <div class="self-stretch h-[249px] flex-col justify-start items-start gap-5 flex">
         <div class="self-stretch h-[85px] flex-col justify-start items-start gap-[11px] flex">
             <div class="self-stretch text-zinc-900 text-[22px] font-bold font-['Satoshi']">Enterprise</div>

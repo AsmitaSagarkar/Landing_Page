@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors:{
       
-      gradient : "bg-gradient-to-top from #D8B4FE to #D8B4FE00"
+      
       },
 
 

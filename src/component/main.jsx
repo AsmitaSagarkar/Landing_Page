@@ -4,7 +4,8 @@ export default function Main() {
 
         <>
             <div className="flex justify-center">
-                <div class="w-[1101px] text-center text-gray-800 text-7xl font-black font-['Satoshi']">Elevate Your Presence with Seamless Design and Innovation.</div>
+                <div className="w-[1101px] text-center text-gray-800 md:text-6xl 
+                text-4xl font-black font-['Satoshi']">Elevate Your Presence with Seamless Design and Innovation.</div>
 
             </div>
 
