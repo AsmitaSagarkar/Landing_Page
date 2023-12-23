@@ -4,7 +4,7 @@ export default function Bottom() {
     return (
 
         <>
-            <div style={{ backgroundImage: 'url("./Landing_Page/bottom.png")' }} id="contact">
+            <div style={{ backgroundImage: 'url("/Landing_Page/bottom.png")' }} id="contact">
 
                 <div className="flex justify-center">
                     <div className="w-[1440px] text-center text-gray-900 lg:text-7xl md:text-6xl text-5xl font-black font-['Satoshi'] mt-16">No long-term contracts.<br />No catches. Simple.</div>
