@@ -6,22 +6,22 @@ import Pricing from "./component/pricing";
 import Bottom from "./component/bottom";
 import FAQ from "./component/frequentlyasked";
 
-export default function App(){
+export default function App() {
   return (
     <div className="relative">
-    
-    <Header />
-    <Middle />
-    <Working />
-    <Section />
-    <Pricing />
-    <FAQ />
-    <Bottom />
-    
-    
-    
+
+      <Header />
+      <Middle />
+      <Working />
+      <Section />
+      <Pricing />
+      <FAQ />
+      <Bottom />
+
+
+
     </div>
-    
-    
+
+
   )
 }

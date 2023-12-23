@@ -5,7 +5,7 @@ import Avatar from "./sectionimage/Avatar.png";
 export default function Section() {
     return (
         <>
-            <div className="mb-16"  style={{ backgroundImage: 'url("/Landing_Page/bg2.png")' }}>
+            <div className="mb-16" style={{ backgroundImage: 'url("/Landing_Page/bg2.png")' }}>
                 <div className="flex flex-row justify-center gap-2 pt-10">
                     <img src={Logomark} alt="Loading" />
                     <img src={Logotype} alt="Loading" />
