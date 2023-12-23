@@ -16,7 +16,7 @@ export default function free() {
                             <div className="text-gray-600 text-base font-normal font-['Satoshi']">/ Month</div>
                         </div>
                         <div className="self-stretch h-11 px-3 py-1.5 rounded-lg border border-gray-600 justify-center items-center gap-1 inline-flex">
-                            <div className="text-center text-gray-600 text-base font-medium font-['Satoshi']">Get Started Now</div>
+                            <div className="text-center text-gray-600 text-base font-medium font-['Satoshi'] hover:cursor-pointer">Get Started Now</div>
                         </div>
                     </div>
                 </div>

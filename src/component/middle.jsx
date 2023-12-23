@@ -21,8 +21,8 @@ export default function Middle() {
             </div>
 
             <div className="flex justify-center mt-14">
-                <div class="w-[273px] h-[62px] px-[34px] py-4 rounded-lg shadow-inner border border-gray-600 justify-center items-center gap-2.5 inline-flex">
-                    <div class="text-gray-600 text-xl font-bold font-['Satoshi']">View recent work</div>
+                <div class="w-[273px] h-[62px] px-[34px] py-4 rounded-lg shadow-inner border border-gray-600 justify-center items-center gap-2.5 inline-flex bg-slate-800 hover:cursor-pointer">
+                    <div class="text-gray-50 text-xl font-bold font-['Satoshi']">View recent work</div>
                 </div>
             </div>
         </>

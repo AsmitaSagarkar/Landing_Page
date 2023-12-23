@@ -13,7 +13,7 @@ export default function Main() {
             
             <div className="flex justify-center text-center mt-8">
             <div className="w-[215px] h-[60px] px-[34px]  py-4 bg-gray-800 rounded-lg shadow-inner">
-                <div class="text-gray-50 text-xl font-bold font-['Satoshi']">View Pricing</div>
+                <div class="text-gray-50 text-xl font-bold font-['Satoshi'] hover:cursor-pointer" onClick={() => window.location.replace("/#pricing")}>View Pricing</div>
             </div>
             </div>
         </>

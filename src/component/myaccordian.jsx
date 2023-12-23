@@ -7,12 +7,12 @@ export default function Accordian({ question, answer }) {
     return (
 
         <>
-            <div className='flex justify-center  flex-col mx-10 lg:mx-0'>
-                <div className='flex flex-row gap-5'>
-                    <div className='flex justify-center  text-justify'><h2 className=" text-gray-800 text-xl font-medium font-['Satoshi']">{question}</h2></div>
-                    <div className='flex justify-end' onClick={() => setData(!data)}>{data ? <RemoveCircleOutlineIcon /> : <AddIcon />}</div>
+            <div className='flex flex-col items-center '>
+                <div className='flex gap-12'>
+                    <div className=''><h2 className=" text-gray-800 text-xl font-medium font-['Satoshi']">{question}</h2></div>
+                    <div className='flex justify-end  hover:cursor-pointer' onClick={() => setData(!data)}>{data ? <RemoveCircleOutlineIcon /> : <AddIcon />}</div>
                 </div>
-                <div className='flex justify-center mb-5'>
+                <div className='text-center'>
                     {
                         data && <p>{answer}</p>
                     }

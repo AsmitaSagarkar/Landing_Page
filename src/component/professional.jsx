@@ -15,7 +15,7 @@ export default function Professional() {
                             <div className="text-gray-50 text-base font-normal font-['Satoshi']">/ Month</div>
                         </div>
                         <div className="self-stretch h-11 px-3 py-1.5 bg-gray-50 rounded-lg justify-center items-center gap-1 inline-flex">
-                            <div className="text-center text-gray-800 text-base font-bold font-['Satoshi']">Get Started Now</div>
+                            <div className="text-center text-gray-800 text-base font-bold font-['Satoshi'] hover:cursor-pointer">Get Started Now</div>
                         </div>
                     </div>
                 </div>

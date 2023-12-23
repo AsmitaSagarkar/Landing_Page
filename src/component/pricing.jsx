@@ -6,7 +6,7 @@ export default function Pricing(){
     return(
 
         <>
-        <div style={{ backgroundImage: 'url("/Gradient.png")' }} >
+        <div id="pricing" style={{ backgroundImage: 'url("./Landing_Page/Gradient.png")' }} >
 
         <div className="flex justify-center">
         <div class="text-center text-gray-800 text-[58px] font-bold font-['Satoshi']">Pricing made for collaborative support.</div>
