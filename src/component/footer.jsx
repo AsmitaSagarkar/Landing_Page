@@ -1,5 +1,5 @@
 import twitter from "./socialicons/twitter.png";
-import linkedin from "./socialicons/twitter.png";
+import linkedin from "./socialicons/linkedin.png";
 import github from "./socialicons/github.png";
 import facebook from "./socialicons/facebook.png";
 import play from "./socialicons/play.png";
