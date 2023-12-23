@@ -1,5 +1,5 @@
 import Main from "./main";
-import Logo from "./logo";
+import Logo from "./logo";  
 // import { Link } from "react-router-dom";
 import ListIcon from '@mui/icons-material/List';
 import CloseIcon from '@mui/icons-material/Close';
@@ -20,7 +20,7 @@ export default function Header() {
                         <div className="text-gray-700 md:text-lg text-md font-medium font-['Satoshi'] hover:cursor-pointer" onClick={() => window.location.replace("/Landing_Page/#working")}>How it works</div>
                     </div>
                     <div className="justify-center items-center gap-2.5 flex">
-                        <div className="text-gray-700 md:text-lg text-md font-medium font-['Satoshi'] hover:cursor-pointer"onClick={() => window.location.replace("/#pricing")}>Pricing</div>
+                        <div className="text-gray-700 md:text-lg text-md font-medium font-['Satoshi'] hover:cursor-pointer"onClick={() => window.location.replace("/Landing_Page/#pricing")}>Pricing</div>
                     </div>
                     <div className="justify-center items-center gap-2.5 flex">
                         <div className="text-gray-700 md:text-lg text-md font-medium font-['Satoshi'] hover:cursor-pointer"onClick={() => window.location.replace("/Landing_Page/#faq")}>FAQ</div>
@@ -46,7 +46,7 @@ export default function Header() {
                 <div onClick={() => window.location.replace("/Landing_Page/#working")}>How it Works</div>
                 <div onClick={() => window.location.replace("/Landing_Page/#pricing")}>Pricing</div>
                 <div onClick={() => window.location.replace("/Landing_Page/#faq")}>FAQ</div>
-                <button className="w-fit rounded-lg shadow-inner border border-gray-600 justify-center items-center p-1 mt-2 hover:cursor-pointer " onClick={() => window.location.replace("/#contact")}>Contact Us</button>
+                <button className="w-fit rounded-lg shadow-inner border border-gray-600 justify-center items-center p-1 mt-2 hover:cursor-pointer " onClick={() => window.location.replace("/Landing_Page/#contact")}>Contact Us</button>
 
                 </div>
             )}

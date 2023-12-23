@@ -9,7 +9,7 @@ export default function Pricing(){
         <div id="pricing" style={{ backgroundImage: 'url("./Landing_Page/Gradient.png")' }} >
 
         <div className="flex justify-center">
-        <div class="text-center text-gray-800 text-[58px] font-bold font-['Satoshi']">Pricing made for collaborative support.</div>
+        <div class="text-center text-gray-800 md:text-[58px] text-[40px] font-bold font-['Satoshi']">Pricing made for collaborative support.</div>
         </div>
 
         <div className="flex justify-center">

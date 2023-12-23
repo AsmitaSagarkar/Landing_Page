@@ -10,8 +10,8 @@ export default function Section() {
                     <img src={Logomark} alt="Loading" />
                     <img src={Logotype} alt="Loading" />
                 </div>
-                <div className="flex justify-center mt-14 ">
-                    <div className="text-center text-gray-800 text-5xl md:2xl xl font-bold font-['Satoshi'] leading-[60px] md:pl-20 md:pr-20">We’ve been with unicraft to kick start every new project and can’t imagine working without it.</div>
+                <div className="flex justify-center ">
+                    <div className="text-center text-gray-800 text-5xl md:2xl xl font-bold font-['Satoshi'] md:leading-[60px] leading-[30px] md:pl-20 md:pr-20">We’ve been with unicraft to kick start every new project and can’t imagine working without it.</div>
                 </div>
                 <div className="flex justify-center mt-14 ">
                     <img className="w-16 h-16 rounded-[200px] " alt="Loading..." src={Avatar} />
