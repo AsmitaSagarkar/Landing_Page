@@ -45,7 +45,7 @@ export default function Professional() {
                         <div className="grow shrink basis-0 text-gray-400 text-base font-medium font-['Satoshi']">Instant Access to our design system</div>
                     </div>
                     <div className="self-stretch justify-start items-center gap-2 inline-flex">
-                        <div className="grow shrink basis-0 text-gray-400 text-base font-medium font-['Satoshi'] lg:mb- mb-6">Create teams to collaborate on designs</div>
+                        <div className="grow shrink basis-0 text-gray-400 text-base font-medium font-['Satoshi'] lg-mb-0 mb-8">Create teams to collaborate on designs</div>
                     </div>
                 </div>
             </div>
